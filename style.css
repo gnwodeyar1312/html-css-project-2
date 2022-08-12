@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body{
+    background-image: linear-gradient(rgba(3, 32, 60, 0.551) , rgba(3, 32, 65, 0.5)),url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-position: center;
+    background-size: cover;
+   
+    
+   
+}
+.container{
+  margin:40px 70px;
+   height: 100vh;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.navbar .list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  list-style-type: none;
+  
+}
+
+.list-item{
+padding: 10px 30px;
+color: #f7cd2e;
+}
+
+.button-small{
+  background-color: #ff4136;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 20px;
+  border: none;
+  position: relative;
+  right:80px;
+  
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin-top: 10px;
+  padding-left:5%;
+  padding-right:5%;
+  
+  
+  
+}
+.hero .hero-heading{
+  font-weight: 500;
+  font-size: 85px;
+  text-align: center;
+  color: #f7cd2e;
+  margin-top: 10px;
+  font-family:"Dela Gothic One", sans-serif;
+ 
+
+ 
+}
+.button-large{
+  margin-top: 35px;
+  background-color: #ff4136;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px;
+  justify-content: center;
+  border:none;
+
+
+}
+.bottom{
+  padding: 20px 30px;
+  top:10%;
+  left: 40%;
+  position:relative;
+  
+
+}
